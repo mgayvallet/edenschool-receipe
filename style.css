@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Space Grotesk;
+  background-color: #F3E5D7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all{
+  width: 736px;
+  height: 1464px;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+img{
+  margin-top: 40px;
+  width: 656px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+h1{
+  margin-top: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #312E2C;
+}
+
+.firstP{
+  margin-top: 24px;
+}
+
+.firstSec{
+  height: 172px;
+  width: 656px;
+  background-color: #FFF7FB;
+}
+
+.firstH2{
+  margin: 56px 0px 16px 24px;
+  color: #7A284E;
+}
+
+.firstUl{
+  margin-left: 54px;
+}
+
+.fisrLi::marker{
+  color: #7A284E;
+}
+
+.fisrLi{
+  color: #5F564D;
+}
+
+.secH2{
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color:#854632;
+}
+
+.secUl{
+  margin-left: 28px;
+}
+
+.secLi::marker{
+  color: #854632;
+}
+
+.secLi{
+  margin-bottom: 8px;
+  color: #5F564D;
+}
+
+hr{
+  border-style: none;
+  height: 1px;
+  background-color: #E3DDD7;
+  margin-top: 24px;
+}
+
+.lastH2{
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color: #854632;
+}
+
+.ol{
+  margin-left: 18px;
+}
+
+.ol::marker{
+  color:sq ;
+}
+
+.lastLi{
+  color: #5F564D;
+  margin-bottom: 6px;
+}
